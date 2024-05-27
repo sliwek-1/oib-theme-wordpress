@@ -1,5 +1,5 @@
 /** 
-  Theme Name oib-theme
+  Theme Name: oib-theme
 **/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
@@ -22,7 +22,7 @@ header {
   border-bottom: 1px solid royalblue;
   background-color: white;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   position: relative;
 }
@@ -157,9 +157,6 @@ header ul li a:hover {
   height: 10vh;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .oferta .animation-card {
@@ -361,6 +358,7 @@ footer {
 .banner-img-header {
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 
 .banner-img-header img{
@@ -369,15 +367,33 @@ footer {
   object-fit: cover;
 }
 
-.banner-img-header img:first-child{
-  width: 32.5vw;
-  height: 35vh;
-  object-fit: cover;
-  position: absolute;
-  z-index: 1;
-  top: 120px;
-  left: 200px;
+.banner-img-header .header-imgs{
+  width: 450px;
+  height: 300px;
+  margin-right: 50vw;
+  margin-bottom: 60vh;
 }
+
+.banner-img-header-center {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-banner {
+  width: 45vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
 
 @media only screen and (orientation: portrait) {
   .spacer {
@@ -473,5 +489,38 @@ footer {
 
   .oferta-common .animation-card:nth-child(4) {
     background-color: #eee;
+  }
+
+  .banner-img-header .header-imgs{
+    width: 550px;
+    height: 350px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    object-fit: cover;
+  }
+
+  .banner-img-header-center {
+    width: 100vw;
+    height: 60vh;
+  }
+  
+  .background-banner {
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    filter: none;
+  }
+}
+
+@media only screen and (max-width: 500px) { 
+  .banner-img-header .header-imgs{
+    width: 370px;
+    height: 250px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    object-fit: cover;
   }
 }

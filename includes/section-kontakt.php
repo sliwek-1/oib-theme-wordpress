@@ -15,11 +15,11 @@
     </tr>
     <tr>
         <td class="head">Email: </td>
-        <td class="body">oib.kontakt@gmail.com</td>
+        <td class="body">daniel.drozdowski@oib-torun.pl</td>
     </tr>
     <tr>
       <td class="head">Adres:</td>
-      <td class="body">Ul Marii Skłodowskiej Curie 72H, 87-100 Toruń</td>
+      <td class="body">Ul Marii Skłodowskiej Curie 71H, 87-100 Toruń</td>
     </tr>
     <th>
       <td>
@@ -29,7 +29,7 @@
     </th>
     <tr>
       <td class="head">NIP:</td>
-      <td class="body">8792101922</td>
+      <td class="body">8792756202</td>
     </tr>
     <tr>
       <td class="head">REGON:</td>
