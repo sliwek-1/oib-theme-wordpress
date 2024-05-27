@@ -2,6 +2,7 @@
   Theme Name: oib-theme
 **/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 body {
   margin: 0;
@@ -22,13 +23,9 @@ header {
   border-bottom: 1px solid royalblue;
   background-color: white;
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   align-items: center;
   position: relative;
-}
-
-header .center {
-  display: none;
 }
 
 .logo{
@@ -91,6 +88,12 @@ header ul li a:hover {
   align-items: center;
   min-height: 70vh;
   width: 100vw;
+  z-index: 1;
+}
+
+.front img {
+  width: 400px;
+  height: 200px;
 }
 
 .front .opis {
@@ -157,6 +160,9 @@ header ul li a:hover {
   height: 10vh;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .oferta .animation-card {
@@ -340,11 +346,6 @@ footer {
   height: 30vh
 }
 
-.banner-img {
-  width: 30vw;
-  height: 45vh
-}
-
 .map-content {
   width: 100vw;
   height: 40vh;
@@ -359,10 +360,11 @@ footer {
   width: 100vw;
   height: 100vh;
   position: relative;
+  display: flex;
 }
 
 .banner-img-header img{
-  width: 100vw;
+  width: 50vw;
   height: 100vh;
   object-fit: cover;
 }
@@ -370,28 +372,71 @@ footer {
 .banner-img-header .header-imgs{
   width: 450px;
   height: 300px;
-  margin-right: 50vw;
-  margin-bottom: 60vh;
+  z-index: 1;
 }
 
-.banner-img-header-center {
-  width: 100vw;
+.modal-orange {
+  width: 50vw;
   height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
+}
+
+.modal-blue {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 6, 61, 0.541);
+}
+
+.banner-img-header-center {
+  width: 50vw;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
 .background-banner {
   width: 45vw;
-  height: 50vh;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.background-banner h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+.background-banner h1::before {
+  content: "„";
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 36, 145);
+  font-size: 5rem;
+}
+
+.background-banner h1::after {
+  content: "”";
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 36, 145);
+  font-size: 5rem;
+}
+
+.image-modal-contener {
+  width: 50vw;
+  height: 100vh;
+  position: relative;
 }
 
 
@@ -491,15 +536,25 @@ footer {
     background-color: #eee;
   }
 
+  .banner-img-header {
+    height: 120vh;
+    flex-direction: column;
+  }
+
   .banner-img-header .header-imgs{
-    width: 550px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
     margin-right: 0px;
     margin-bottom: 0px;
     object-fit: cover;
   }
 
   .banner-img-header-center {
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .modal-blue {
     width: 100vw;
     height: 60vh;
   }
@@ -513,14 +568,28 @@ footer {
     background-color: transparent;
     filter: none;
   }
+
+  .image-modal-contener {
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .background-banner h1 {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 500px) { 
   .banner-img-header .header-imgs{
-    width: 370px;
-    height: 250px;
+    width: 200px;
+    height: 120px;
     margin-right: 0px;
     margin-bottom: 0px;
     object-fit: cover;
+  }
+
+  .front img {
+    width: 200px;
+    height: 120px;
   }
 }
