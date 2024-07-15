@@ -439,7 +439,7 @@ footer {
 }
 
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: portrait) {
   .spacer {
       flex-direction: column;
   }
@@ -488,7 +488,7 @@ footer {
   }
 
   .animation-card img {
-    width: 25vw;
+    width: 150px;
   }
 
   .left-card, .right-card {
@@ -578,7 +578,10 @@ footer {
   }
 }
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 1000px) { 
+  .center {
+    z-index: 1;
+  }
   .banner-img-header .header-imgs{
     width: 200px;
     height: 120px;
@@ -586,9 +589,32 @@ footer {
     margin-bottom: 0px;
     object-fit: cover;
   }
+  
+  .banner-img-header h1 {
+    font-size: 1.5rem;
+  }
 
   .front img {
     width: 200px;
     height: 120px;
+  }
+
+  .spacer {
+    height: auto;
+  }
+  
+  .oferta .animation-card {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    border: none;
+  }
+
+  .oferta .animation-card:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .animation-card .banner-img {
+    width: 200px;
   }
 }
