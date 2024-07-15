@@ -370,7 +370,7 @@ footer {
 }
 
 .banner-img-header .header-imgs{
-  width: 450px;
+  width: auto;
   height: 300px;
   z-index: 1;
 }
@@ -400,7 +400,6 @@ footer {
 }
 
 .background-banner {
-  width: 45vw;
   height: 100vh;
   display: flex;
   flex-direction: column;

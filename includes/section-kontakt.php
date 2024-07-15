@@ -1,5 +1,5 @@
 
-<?php if(is_page('kontakt') || true) { ?>
+<?php if(is_page('kontakt')) { ?>
 <div name="Kontakt" class="spacer kontakt">
 <div class="left-card-contact reverse">
     <h1>Kontakt</h1>

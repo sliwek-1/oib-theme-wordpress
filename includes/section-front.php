@@ -1,5 +1,5 @@
 <div class="spacer front">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/logo1.png" alt="" class="banner-img">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" class="banner-img">
     <div class="opis"> 
         <?php
             if (have_posts()) :

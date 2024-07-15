@@ -3,7 +3,7 @@
 
     </div>
     <div class="center-footer fot-con">
-      <p>&copy; OIB SP Z.O.O. | 2024</p>
+      <p>&copy; OIB SP Z O.O. | <?= date('Y'); ?></p>
     </div>
     <div class="right-footer fot-con">
     
