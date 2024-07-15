@@ -22,6 +22,9 @@
                 <a href="http://localhost/wordpress/oferta/">Oferta</a>
             </li>
             <li>
+                <a href="http://localhost/wordpress/portfolio/">Portfolio</a>
+            </li>
+            <li>
                 <a href="http://localhost/wordpress/kontakt/">Kontakt</a>
             </li>
         </ul>
