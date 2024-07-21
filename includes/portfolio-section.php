@@ -15,7 +15,6 @@
     ?>
             <div class="portfolio-article">
                 <h2 class="portfolio-title"><?php the_title(); ?></h2>
-                <p class="portfolio-date"><?php the_date(); ?></p>
                 <div class="tags-section">
                     <?php 
                         if($tags) {
