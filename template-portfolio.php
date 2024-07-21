@@ -7,5 +7,5 @@
 ?>
 
 <?php get_header() ?>
-<!-- sekcja portfolio -->
+<?php get_template_part('includes/portfolio', 'section'); ?>
 <?php get_footer() ?>

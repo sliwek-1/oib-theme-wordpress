@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>OIB SP Z.O.O.</title>
+    <title>OIB SP Z O.O.</title>
 
     <?php wp_head() ?>
   </head>

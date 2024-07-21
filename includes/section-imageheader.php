@@ -9,6 +9,6 @@
     </div>
     <div class="image-modal-contener">
         <div class="modal-blue"></div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/1.jpg" alt="" class="banner-img">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/sumin-3.jpeg" alt="" class="banner-img">
     </div>
 </div>  
