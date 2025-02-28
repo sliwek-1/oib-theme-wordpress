@@ -1,5 +1,6 @@
 <div class="spacer onas">
     <h1>O nas</h1>
+
     <?php
     $query = new WP_Query(array('pagename' => 'o-nas'));
 

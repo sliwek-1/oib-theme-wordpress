@@ -3,7 +3,7 @@
     $args = array(
         'post_type' => 'post',
         'posts_per_page' => 5,
-        'category_name' => 'Portfolio', // Opcjonalnie: Filtruj według kategorii
+        'category_name' => 'Portfolio', 
     );
     $the_query = new WP_Query( $args );
     if ( $the_query->have_posts() ) {
@@ -11,7 +11,6 @@
             $the_query->the_post();
             $post_id = get_the_ID();
             $tags = get_the_tags($post_id);
-
     ?>
             <div class="portfolio-article">
                 <h2 class="portfolio-title"><?php the_title(); ?></h2>

@@ -7,7 +7,9 @@
 <div class="right-card-contact">
     <table>    
     <th>
-        <td>Dane Kontaktowe</td>
+        <td>
+          <strong>Dane Kontaktowe</strong>
+        </td>
     </th>
     <tr>
         <td class="head">Telefon: </td>
@@ -23,7 +25,7 @@
     </tr>
     <th>
       <td>
-        Dane Szczegółowe
+        <strong>Dane Szczegółowe</strong>
       </td>
       <td></td>
     </th>
@@ -51,15 +53,15 @@
     <table>
     <tr>
         <td class="head">Telefon: </td>
-        <td class="body">693 032 049</td>
+        <td class="body">608 532 676</td>
     </tr>
     <tr>
         <td class="head">Email: </td>
-        <td class="body">oib.sp.zoo@gmail.com</td>
+        <td class="body">daniel.drozdowski@oib-torun.pl</td>
     </tr>
     <tr>
         <td class="head">Adres: </td>
-        <td class="body">Torun ul. Polna 27890</td>
+        <td class="body">Ul Marii Skłodowskiej Curie 71H, 87-100 Toruń</td>
     </tr>
     </table>
 </div>

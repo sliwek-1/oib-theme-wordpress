@@ -1,8 +1,8 @@
 <div class="banner-img-header">
     <div class="banner-img-header-center">
         <div class="background-banner">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-500px.png" alt="" class="header-imgs">
-            <h1>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/full-hd.png" alt="" class="header-imgs">
+            <h1 class="maksyma">
                 Z Nami Każda Droga Jest Możliwa
             </h1>
         </div>
